@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+header{
+    background-color: rgb(92, 39, 216);
+    color: white;
+    padding: 15px 0 20px 40px;
+    width: 50%;
+}
+.header-title{
+    padding: 10px 0px;
+}
+div#content{
+    padding:15px 0px 0px 45px;
+    width: 50%;
+}
+div#content >h4{
+    border-bottom: 2px solid green;
+    padding: 0 20px 10px 5px;
+    display: inline-block;
+    width: 50%;
+}
+li.list-item{
+    border-bottom: 1px solid gray;
+    padding: 10px 0px;
+    list-style-type: none;
+}
+form{
+    padding-top:20px;
+}
+form > input, button{
+    padding: 5px;
+    border: 1px solid #ce5e5e;
+    border-radius: 410px;
+}
